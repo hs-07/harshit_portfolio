@@ -1,5 +1,6 @@
 {
   "name": "personal-portfolio",
+  "homepage": "https://hs-07.github.io/harshit_porfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
