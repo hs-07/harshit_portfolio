@@ -20,7 +20,7 @@ export const Footer = () => {
               <a href="https://www.github.com/hs-07"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://www.instagram.com/harshit_1906/"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2023. All Rights Reserved | Made with ❤️ </p>
           </Col>
         </Row>
       </Container>
