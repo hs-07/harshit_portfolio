@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/harshit_porfolio/static/css/main.d2faa3fb.css",
-    "main.js": "/harshit_porfolio/static/js/main.8339ed75.js",
+    "main.js": "/harshit_porfolio/static/js/main.b5fce13b.js",
     "static/js/787.fb771931.chunk.js": "/harshit_porfolio/static/js/787.fb771931.chunk.js",
     "static/media/project-img2.png": "/harshit_porfolio/static/media/project-img2.de47a9b194316de2175e.png",
     "static/media/project-img3.png": "/harshit_porfolio/static/media/project-img3.a90c60288e99204b0408.png",
@@ -32,11 +32,11 @@
     "static/media/arrow2.svg": "/harshit_porfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/harshit_porfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.d2faa3fb.css.map": "/harshit_porfolio/static/css/main.d2faa3fb.css.map",
-    "main.8339ed75.js.map": "/harshit_porfolio/static/js/main.8339ed75.js.map",
+    "main.b5fce13b.js.map": "/harshit_porfolio/static/js/main.b5fce13b.js.map",
     "787.fb771931.chunk.js.map": "/harshit_porfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2faa3fb.css",
-    "static/js/main.8339ed75.js"
+    "static/js/main.b5fce13b.js"
   ]
 }
