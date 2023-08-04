@@ -35,6 +35,21 @@ export const Projects = () => {
       link: "https://hs07-notes.netlify.app/",
     },
   ];
+  const experiences = [
+    {
+      heading: "FrontEnd Engineer",
+      subHeading: "Yamak.ai",
+      description: "Building the tools for deployment and monitoring of the large language models, LLM Prompts Research. Developed Yamak’s official website & UI of application and integrated API’s | Technologies: Next JS + Tailwind CSS + Github + Jira",
+      duration: "May, 2023 - Current",
+    },
+    {
+      heading: "SDE Intern",
+      subHeading: "Appnox Technologies",
+      description: "Developed the front-end of project MediarTrade & bug fixing | Technologies: Vue JS + CSS + Github + Jira",
+      duration: "Apr, 2023 - Current",
+    },
+    { heading: "Web Developer", subHeading: "STARZ Ventures", description: "Developed lots of LANDING PAGES and WEBSITES on the WordPress software. Outcome of my internship benefited the company in increase in the sales and more traffic over their page for work | Technologies: HTML + CSS + Wordpress", duration: "Oct, 2021 - Jan, 2022" },
+  ];
 
   return (
     <section className="project" id="projects">
@@ -89,60 +104,28 @@ export const Projects = () => {
 
                       <Tab.Pane eventKey="second">
                         <div className="experiences">
-                          <div className="experience">
-                            <div className="title">
-                              <div className="heading">
-                                <h4>
-                                  <u> Freelancer </u>
-                                </h4>
-                                <div className="sub-heading">
-                                  <h5>Satyansatan Organisation</h5>
+                          {experiences.map((exp) => (
+                            <div className="experience">
+                              <div className="title">
+                                <div className="heading">
+                                  <h6>
+                                    <u> {exp.heading} </u>
+                                  </h6>
+                                  <div className="sub-heading">
+                                    <h5>{exp.subHeading}</h5>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
 
-                            <div className="exp-desc">
-                              <p>
-                                🔸 Optimized the dashboard of the website,
-                                inserted tinyURL generator and customizable URL
-                                feature and additional features in sharing the
-                                verse on different social media <br />
-                                🔸 Worked on the front-end part of the Website,
-                                enhanced the UX <br />
-                                🔸 Angular UI + MySQL based project.
-                              </p>
-                            </div>
+                              <div className="exp-desc">
+                                <p>{exp.description}</p>
+                              </div>
 
-                            <div className="sub-footer">
-                              <h5>Duration: 2 months</h5>
-                            </div>
-                          </div>
-
-                          <div className="experience">
-                            <div className="title">
-                              <div className="heading">
-                                <h4>
-                                  {" "}
-                                  <u> Web Developer Intern </u>{" "}
-                                </h4>
-                                <div className="sub-heading">
-                                  <h5>STARZVentures</h5>
-                                </div>
+                              <div className="sub-footer">
+                                <h6>{exp.duration}</h6>
                               </div>
                             </div>
-                            <div className="exp-desc">
-                              <p>
-                                🔸 Designed and developed lots of LANDING PAGES
-                                and WEBSITES on the WordPress software <br />
-                                🔸 The outcome of my internship benefited the
-                                company in increase in the sales and more
-                                traffic over their page for work.
-                              </p>
-                            </div>
-                            <div className="sub-footer">
-                              <h5>Duration: 3 months</h5>
-                            </div>
-                          </div>
+                          ))}
                         </div>
                       </Tab.Pane>
 
@@ -158,13 +141,19 @@ export const Projects = () => {
                             </a>
                           </div>
                           <div className="os_desc">
-                          🔸OpenCost is a Sandbox Project under CNCF. I enabled
-                            DARK MODE on the complete website. <br />
-                            🔸Used ReactJS,
-                            Docusarus, GitHub Actions and VS Code.
+                            🔸OpenCost is a Sandbox Project under CNCF. I
+                            enabled DARK MODE on the complete website. <br />
+                            🔸Used ReactJS, Docusarus, GitHub Actions and VS
+                            Code.
                           </div>
                           <div className="os-btn">
-                            <a href="https://github.com/opencost/opencost-website/pull/54" target="_blank" rel="noopener noreferrer"><button>PR Link</button></a>
+                            <a
+                              href="https://github.com/opencost/opencost-website/pull/54"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <button>PR Link</button>
+                            </a>
                           </div>
                         </div>
                       </Tab.Pane>

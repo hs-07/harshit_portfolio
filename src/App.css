@@ -556,6 +556,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   background: #8080803d;
   border-radius: 0px 0px 20rem 20rem;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 767px) {
